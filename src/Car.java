@@ -1,18 +1,35 @@
+import java.util.Scanner;
+
 public class Car {
     private String color;
-    private int price;
+    private double price;
     private String model;
 
-    public void modelCar(String m){
-        model = m;
-        System.out.println(model);
+
+
+
+    public String getColor() {
+        return color;
     }
-    public void priceCar(int p){
-        price = p;
-        System.out.println(price);
+
+    public void setColor(String color) {
+        this.color = color;
     }
-    public void colorCar(String c){
-        color = c;
-        System.out.println(color);
+
+    public String getModel() {
+        return model;
     }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
 }
